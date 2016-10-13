@@ -1,0 +1,9 @@
+.clearfix {
+	*zoom: 1;
+}
+
+.scrolled .header,
+.header_fixed,
+.scroll-top {
+	background: #2a4571;
+}

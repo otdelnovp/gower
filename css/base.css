@@ -1,0 +1,112 @@
+/* start: base */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
+
+body {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #333;
+	background: #fff;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+a {
+	text-decoration: none;
+	color: #238cc8;
+	outline: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a:hover {text-decoration: underline;}
+
+b {font-weight: 400; color: #1a8e8c;}
+
+i {font-style: italic; color: }
+
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+/**/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+h1 {
+	margin: 0 0 30px;
+	line-height: 60px;
+	font-size: 60px;
+	letter-spacing: -2px;
+}
+
+h2 {
+	margin: 0 0 30px;
+	line-height: 40px;
+	font-size: 36px;
+	letter-spacing: -1px;
+}
+
+h3 {
+	margin: 0 0 10px;
+	line-height: 30px;
+	font-size: 24px;
+	letter-spacing: -1px;
+}
+
+h1 a, h1 a:hover,
+h2 a, h2 a:hover,
+h3 a, h3 a:hover {
+}
+
+/**/
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.counters {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+.none {
+	display: none !important;
+}

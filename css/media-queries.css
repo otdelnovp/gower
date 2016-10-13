@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px), screen and (max-height: 800px) {
+	
+	body {line-height: 26px; font-size: 16px;}
+	h1 {line-height: 50px; font-size: 50px;}
+	h2 {line-height: 30px; font-size: 26px;}
+	h3 {line-height: 20px; font-size: 24px;}
+	
+	html, body, .header {min-width: 1000px;}
+	.header__inner, .content-box__inner, .content_inner-page {width: 960px;}
+	
+	.header__menu-link {margin: 0;}
+	.start__description {line-height: 33px; font-size: 26px;}
+	
+}
